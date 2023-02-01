@@ -32,5 +32,6 @@ class MainActivity : AppCompatActivity() {
             val settingsIntent = Intent(this@MainActivity, SettingsActivity::class.java)
             startActivity(settingsIntent)
         }
+        //тест
     }
 }
