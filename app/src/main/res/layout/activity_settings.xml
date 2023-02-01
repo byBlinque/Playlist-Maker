@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/settings_bg_color">
     <LinearLayout
@@ -44,11 +45,13 @@
             android:textColor="@color/black"
             android:textSize="@dimen/settings_menu_text_size"
             android:layout_centerVertical="true" />
-        <Switch
+        <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            app:trackTint="@color/switch_track_color"
+            app:thumbTint="@color/switch_thumb_color" />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
