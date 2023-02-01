@@ -13,4 +13,6 @@
     <color name="bg_color">#3772E7</color>
 
     <color name="settings_bg_color">#F5F5F5</color>
+    <color name="switch_track_color">#CECFD2</color>
+    <color name="switch_thumb_color">#F0F1F3</color>
 </resources>
